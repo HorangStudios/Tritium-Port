@@ -47,7 +47,7 @@ header li {
 .card {
   background: #2f2f2f;
   color: white;
-  width: calc(25% - 24px);
+  width: calc(50% - 24px);
   border-radius: 5px;
   aspect-ratio: 3/4;
   margin: 10px;
