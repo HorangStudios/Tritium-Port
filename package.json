@@ -1,0 +1,27 @@
+{
+  "name": "com.horangstudios.tritium",
+  "displayName": "Tritium",
+  "version": "1.0.0",
+  "description": "Simple game launcher.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-inappbrowser": {}
+    }
+  },
+  "devDependencies": {
+    "cordova-android": "^12.0.1",
+    "cordova-plugin-inappbrowser": "^6.0.0"
+  }
+}
